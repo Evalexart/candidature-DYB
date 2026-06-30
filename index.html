@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <link rel="icon" type="image/png" href="/favicon.png" />
-    <title>Support de motivation – Anaïs Mattle – DYB</title>
+    <title>Page de motivation – Anaïs Mattle – DYB</title>
     <style>
       *,
       *::before,
@@ -288,9 +288,19 @@
         font-size: 0.84rem;
         color: var(--gris);
         line-height: 1.6;
+        display: grid;
+        grid-template-columns: 1.8rem 1fr;
+        align-items: center;
+        column-gap: 0.35rem;
+      }
+
+      .contact-icon {
+        width: 1.8rem;
         display: flex;
         align-items: center;
-        gap: 8px;
+        justify-content: center;
+        line-height: 1;
+        font-size: 1rem;
       }
       .contact-item a {
         color: var(--bordeaux);
@@ -345,8 +355,7 @@
   </head>
   <body class="theme-dark">
     <!-- ═══════════════════════════════════════════════════════
-     ANIMATION BOUTEILLE D'ENTRÉE — bloc intégrable
-     À coller juste après <body class="theme-light"> ou <body class="theme-dark">
+     ANIMATION BOUTEILLE D'ENTRÉE 
      ═══════════════════════════════════════════════════════ -->
     <style>
       *,
@@ -762,7 +771,6 @@
               <stop offset="100%" stop-color="var(--border)" />
             </linearGradient>
 
-            <!-- Corps droit : côtés verticaux de 286 à 496. Affinement uniquement aux épaules. -->
             <clipPath id="bottleClip">
               <path
                 d="M104 36
@@ -812,7 +820,6 @@
             />
 
             <g class="label">
-              <!-- Étiquette : côtés gauche/droite parallèles, alignés au corps droit. Perspective uniquement haut/bas courbes. -->
               <path
                 class="label-shape"
                 d="M60 306
@@ -923,7 +930,7 @@
       });
     </script>
     <!-- ═══════════════════════════════════════════════════════
-     FIN DU BLOC À COLLER
+     FIN DU BLOC ANIMATION BOUTEILLE
      ═══════════════════════════════════════════════════════ -->
     <!-- ── BANDEAU ── -->
     <div class="bandeau">
@@ -948,10 +955,10 @@
           <img alt="Anaïs Mattle" src="../assets/photo.png" />
         </div>
         <div class="header-candidature">
-          <div class="label">Support de motivation</div>
+          <div class="label">Page de motivation</div>
           <div class="detail">
-            Candidature alternance BTS SIO<br />
-            Développement Web / Applications<br />
+            Candidature Développement Web<br />
+            Alternance BTS SIO SLAM<br />
             DYB (Pain de Minuit) – Nieppe
           </div>
         </div>
@@ -961,11 +968,11 @@
     <div class="intro">
       <p>
         Mon parcours vers le numérique s'est construit à partir de besoins
-        concrets. Lorsqu'une idée mérite d'être réalisée ou qu'un problème
-        mérite d'être résolu, j'ai tendance à apprendre les outils nécessaires
-        pour construire moi-même la solution. Cette démarche m'a progressivement
-        conduite vers le développement, l'automatisation, la conception
-        d'interfaces et les projets web.
+        concrets. Lorsqu'une idée mérite d'être réalisée, qu'un usage peut être
+        amélioré ou qu'un problème nécessite d'être résolu, j'ai naturellement
+        tendance à apprendre les outils nécessaires pour construire moi-même la
+        solution. Cette démarche m'a progressivement conduite vers le
+        développement, l'automatisation et les projets web.
       </p>
     </div>
     <div class="pull">
@@ -994,7 +1001,8 @@
             Aujourd'hui, je souhaite consolider cette expérience pratique au
             travers d'un BTS SIO en alternance afin d'évoluer dans un cadre
             professionnel, de mieux structurer mes méthodes et de participer à
-            des projets web plus ambitieux.
+            des projets web concrets au sein d'une équipe, tout en continuant à
+            faire évoluer mes compétences.
           </p>
         </div>
       </details>
@@ -1071,7 +1079,7 @@
           <p>
             Votre offre couvre plusieurs aspects du développement web qui
             m'intéressent particulièrement : développement d'applications,
-            conception d'interfaces, réflexion autour de l'expérience
+            création d'interfaces utilisateur, réflexion autour de l'expérience
             utilisateur, optimisation et travail collaboratif.
           </p>
           <p>
@@ -1079,15 +1087,14 @@
             plus personnelle : j'ai travaillé deux ans aux Anges Gardins, dans
             une structure liée à l'agriculture biologique, à l'alimentation, à
             la transformation de produits et à l'animation autour du bien-vivre
-            alimentaire. Même si le poste visé est aujourd'hui numérique, je
-            connais déjà l'intérêt de projets concrets autour de l'alimentation,
-            des circuits responsables et de la valorisation de ressources.
+            alimentaire. J'y ai notamment découvert l'importance de la
+            valorisation de ressources et de la recherche de solutions durables,
+            une approche qui fait écho à votre activité.
           </p>
           <p>
-            J'apprécie donc particulièrement l'idée de mettre mes compétences en
-            développement web au service d'une activité qui ne soit pas
-            seulement abstraite ou technique, mais liée à un projet réel,
-            identifiable et utile.
+            J'apprécie donc particulièrement l'idée de mettre mes compétences au
+            service d'une activité qui ne soit pas seulement abstraite ou
+            technique, mais liée à un projet réel, identifiable et utile.
           </p>
           <p>
             Enfin, le fait que l'alternance soit présentée comme un véritable
@@ -1102,19 +1109,17 @@
         <summary>Ce que j'apporte, concrètement</summary>
         <div class="detail-body">
           <p>
-            J'apporte une expérience acquise principalement par la pratique :
-            développement d'outils, automatisations, projets web, administration
-            Linux et utilisation de bases de données.
+            J'apporte une expérience construite principalement au travers de
+            projets personnels et communautaires, dans lesquels j'ai dû analyser
+            des besoins, concevoir des solutions, développer des outils, les
+            faire évoluer et accompagner leurs utilisateurs.
           </p>
           <p>
-            J'apporte également une forte capacité d'apprentissage. La plupart
-            des technologies que j'utilise aujourd'hui ont été apprises dans le
-            cadre de projets concrets, souvent en partant de zéro.
-          </p>
-          <p>
-            Enfin, j'apprécie le travail en équipe, les échanges autour des
-            besoins utilisateurs, les essais successifs et l'amélioration
-            continue des solutions développées.
+            J'apporte également une capacité d'apprentissage par la pratique. La
+            plupart des technologies que j'utilise aujourd'hui ont été apprises
+            dans le cadre de projets concrets, en partant d'un besoin réel et en
+            approfondissant progressivement les compétences nécessaires à leur
+            réalisation.
           </p>
         </div>
       </details>
@@ -1125,22 +1130,49 @@
         <div class="contact-sign">Anaïs Mattle</div>
         <div class="contact-grid">
           <div class="contact-item">
-            ✉ <a href="mailto:a.mattle@outlook.com">a.mattle@outlook.com</a>
+            <span class="contact-icon">✉</span>
+            <a href="mailto:a.mattle@outlook.com">a.mattle@outlook.com</a>
           </div>
-          <div class="contact-item">☎ 06 09 56 29 33</div>
+
           <div class="contact-item">
-            <span style="white-space: nowrap">📍  62500 Saint-Omer</span>
+            <span class="contact-icon">☎</span>
+            <span>06 09 56 29 33</span>
           </div>
-          <div class="contact-item">🚆 Ligne SNCF Lille/Calais</div>
-          <div class="contact-item">🚗 Permis B – Véhicule personnel</div>
-          <div class="contact-item">💻 Distanciel possible</div>
-          <div class="contact-item">🎓 My Digital School - Lille</div>
-          <div class="contact-item">🕔 3 jours / 2 jours</div>
+
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <span>62500 Saint-Omer</span>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-icon">🚆</span>
+            <span>Ligne SNCF Lille/Calais</span>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-icon">🚗</span>
+            <span>Permis B – Véhicule personnel</span>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-icon">💻</span>
+            <span>Distanciel possible</span>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-icon">🎓</span>
+            <span>My Digital School - Lille</span>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-icon">🕔</span>
+            <span>3 jours / 2 jours</span>
+          </div>
         </div>
         <div class="contact-github">
           Code source de cette page :
-          <a href="https://github.com/Evalexart/candidature-dyb" target="_blank"
-            >github.com/Evalexart/candidature-dyb</a
+          <a href="https://github.com/Evalexart/candidature-DYB" target="_blank"
+            >github.com/Evalexart/candidature-DYB</a
           ><br />
           Consulter mon CV :
           <a href="../assets/cv.pdf" target="_blank"
